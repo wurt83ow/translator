@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>translator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="style/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container panel">
+        <div class="translation">
+          <form id="form_addcard">
+            <input type="text" name="original" required placeholder="слово" />
+            <input
+              type="text"
+              name="translate"
+              required
+              placeholder="перевод"
+            />
+            <input type="text" name="color" placeholder="цвет" />
+            <button>Добавить</button>
+          </form>
+        </div>
+        <div class="search">
+          <input id="search_text" type="text" name="text" placeholder="найти" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container"></div>
+      <div class="cards container">
+        <!-- <div class="cards_item_card" id="card_vncstacf2">
+          <div class="cards_item_original">Слово</div>
+          <div class="cards_item_close">✖</div>
+        </div> -->
+      </div>
+    </div>
+    </main>
+    <script src="script/script.js"></script>
+  </body>
+</html>
